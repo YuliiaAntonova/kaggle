@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+    - name: staging
+      database: dtc-de-379809
+      schema: dezoomcamp
+
+      tables:
+        - name: green_tripdata
+        - name: yellow_tripdata
